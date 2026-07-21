@@ -1,42 +1,266 @@
-<h1 align="center">Portfólio Diego Melo do Nascimento</h1>
-<h3 align="center">Desenvolvedor Web Full Stack</h3>
-<p align="center">
-<img src="https://uploaddeimagens.com.br/images/003/559/548/full/MyOctoCat.png" height="300px">
-</p>
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=diego-melo&label=Profile%20views&color=0e75b6&style=flat" alt="diego-melo" /> </p>
+<div align="center">
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=diego-melo" alt="diego-melo" /></a> </p>
+# Diego Melo — Data Analyst & Data Engineer
 
-- 🔭 Atualmente estou trabalhando em [um Sistema de Login.](https://github.com/Diego-Melo/login-system)
+### Data Modeling · ELT · Data Quality · Analytics · AI Systems
 
-- 🌱 Estou aprendendo **Flask, Python e MongoDB**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/diegonac)
+[![Email](https://img.shields.io/badge/Email-Let's%20talk-6D4AFF?style=for-the-badge&logo=microsoftoutlook&logoColor=white)](mailto:diego.nac@hotmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/diego-nac)
+![Location](https://img.shields.io/badge/Fortaleza-Brazil-00B4D8?style=for-the-badge&logo=googlemaps&logoColor=white)
 
-- 💬 Me pergunte sobre **HTML, CSS e JS.**
+</div>
 
-- 📫 Como me contatar: **diegomelo624@gmail.com**
+## About me
 
-- ⚡ Fato interessante **sempre tomo café enquando estou programando.**
+I build reliable **data models, ELT pipelines, analytical workflows, and data products** with Python, SQL, BigQuery, and Google Cloud. At **Maplink**, I work with operational and geospatial data to support analytics and product decisions.
 
-<h3 align="left">Conecte comigo:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/diegonac" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="diegonac" height="30" width="40" /></a>
-<a href="https://instagram.com/diego.nac" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="diego.nac" height="30" width="40" /></a>
-<a href="https://www.youtube.com/channel/UClCXnan7t8hpjAHp7v9HBCA" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="diego melo" height="30" width="40" /></a>
-<a href="https://discord.gg/diego.nac" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="diego.nac" height="30" width="40" /></a>
-</p>
+I am also an **MSc student in Computer Science at the Federal University of Ceará (UFC)**, researching **GraphRAG and graph-based information retrieval for Large Language Models**. My work sits at the intersection of data engineering, analytics, and production-oriented AI systems.
 
-<h3 align="left">Linguagens e Ferramentas:</h3>
-<p align="left"> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://materializecss.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/prplx/svg-logos/5585531d45d294869c4eaab4d7cf2e9c167710a9/svg/materialize.svg" alt="materialize" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
+```text
+Sources  ──▶  Ingestion  ──▶  Transformation  ──▶  Warehousing  ──▶  Analytics  ──▶  AI Systems
+ APIs          Python           SQL · ELT           BigQuery         BI · KPIs       RAG · GraphRAG
+ Events        Pub/Sub          Data Quality        PostgreSQL       Insights        LLM Agents
+ Files         RabbitMQ         Data Models         Cloud Storage    Experiments     Vector Search
+```
 
-<h3 align="left">Métricas:</h3>
+## What I work with
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=diego-melo&show_icons=true&theme=dark&locale=en&layout=compact" alt="diego-melo" /></p>
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=diego-melo&show_icons=true&theme=dark&locale=en" alt="diego-melo" /></p>
+### Data Engineering
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=diego-melo&theme=dark" alt="diego-melo" /></p>
+- ELT/ETL pipelines and data integration
+- Analytical and dimensional data modeling
+- Data quality, governance, and observability
+- BigQuery, PostgreSQL, MySQL, and MongoDB
+- Event-driven and distributed data workflows
 
+</td>
+<td width="50%" valign="top">
 
-<h3 align="left">Atividades:</h3>
+### Data Analytics
 
-![Snake animation](https://github.com/Diego-Melo/Diego-Melo/blob/output/github-contribution-grid-snake.svg)
+- Exploratory and statistical data analysis
+- Operational, product, and geospatial analytics
+- Looker Studio, Tableau, Plotly, and Matplotlib
+- Experimentation and predictive modeling
+- Translating complex data into business insights
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### Cloud & Delivery
+
+- Google Cloud Platform and BigQuery
+- Cloud Run, Cloud Functions, and Pub/Sub
+- Vertex AI and Cloud Storage
+- Docker, Linux, GitHub Actions, and CI/CD
+- Python and Bash automation
+
+</td>
+<td width="50%" valign="top">
+
+### AI & Retrieval
+
+- Machine learning and NLP
+- LLM agents and retrieval-augmented generation
+- Embeddings, vector search, and semantic search
+- GraphRAG and knowledge graphs
+- LangChain, TensorFlow, and LLMOps
+
+</td>
+</tr>
+</table>
+
+## Technology stack
+
+| Layer | Technologies |
+|:--|:--|
+| **Languages & Analysis** | Python · SQL · JavaScript · Bash · Pandas · NumPy · Matplotlib · Plotly |
+| **Data Platform** | BigQuery · PostgreSQL · MySQL · MongoDB · ELT/ETL · Data Modeling · Data Quality |
+| **Cloud & Delivery** | GCP · Cloud Run · Cloud Functions · Pub/Sub · Vertex AI · Cloud Storage · Docker · CI/CD |
+| **Analytics** | Looker Studio · Tableau · Data Visualization · Statistical Analysis · Experimentation |
+| **AI & Retrieval** | Machine Learning · NLP · LLM Agents · LangChain · Embeddings · Vector Search · RAG · GraphRAG |
+| **Messaging & Automation** | RabbitMQ · n8n · Event-Driven Architecture · Workflow Automation |
+
+## Featured work
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### [Multi Scholar Search](https://github.com/diego-nac/semantic_search_v2)
+
+Multi-source scholarly search with parallel collection, DOI/BibTeX/PDF enrichment, normalization, filtering, and CLI delivery.
+
+`Python` `APIs` `Playwright` `Data Enrichment`
+
+</td>
+<td width="50%" valign="top">
+
+### [Systematic Search](https://github.com/diego-nac/systematic_search)
+
+Academic extraction pipeline spanning heterogeneous sources with asynchronous processing and standardized JSONL outputs.
+
+`Python` `Async IO` `Web Scraping` `JSONL`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [Automatic Learning](https://github.com/diego-nac/automatic_learning)
+
+Academic analytical notebooks covering regression, classification, KNN, decision trees, and statistical evaluation.
+
+`Python` `Pandas` `NumPy` `Scikit-learn`
+
+</td>
+<td width="50%" valign="top">
+
+### [Applied Computational Intelligence](https://github.com/diego-nac/ica-homeworks)
+
+Sensor-data EDA, PCA, regression, classification, cross-validation, and IEEE-style technical reporting.
+
+`Jupyter` `Machine Learning` `PCA` `EDA`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [Smart Room Pub/Sub](https://github.com/diego-nac/smart-room-pubsub)
+
+Academic event-driven sensor system integrating RabbitMQ, gRPC, Flask, and REST interfaces.
+
+`Python` `RabbitMQ` `gRPC` `Distributed Systems`
+
+</td>
+<td width="50%" valign="top">
+
+### [Data Visualization](https://github.com/diego-nac/data-visualization)
+
+Interactive analytical visualization exercises and published explorations built with Vega-Lite.
+
+`Vega-Lite` `JavaScript` `Visual Analytics`
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><strong>Explore all 16 public repositories</strong></summary>
+
+### Data, Analytics & Research
+
+- [`automatic_learning`](https://github.com/diego-nac/automatic_learning) — machine-learning coursework and analytical notebooks.
+- [`semantic_search_v2`](https://github.com/diego-nac/semantic_search_v2) — multi-source scholarly search and enrichment CLI.
+- [`systematic_search`](https://github.com/diego-nac/systematic_search) — systematic academic-search extraction pipeline.
+- [`ica-homeworks`](https://github.com/diego-nac/ica-homeworks) — applied computational intelligence over sensor data.
+- [`data-visualization`](https://github.com/diego-nac/data-visualization) — interactive data-visualization coursework.
+- [`reconhecimento-de-padroes`](https://github.com/diego-nac/reconhecimento-de-padroes) — pattern-recognition study repository.
+
+### Systems & Web Foundations
+
+- [`smart-room-pubsub`](https://github.com/diego-nac/smart-room-pubsub) — RabbitMQ/gRPC distributed smart-room simulation.
+- [`dist-systems-lab-1`](https://github.com/diego-nac/dist-systems-lab-1) — distributed-systems laboratory work.
+- [`login-system`](https://github.com/diego-nac/login-system) — Flask authentication and Brazilian GDP API study project.
+- [`estudosLaravel`](https://github.com/diego-nac/estudosLaravel) — Laravel and JavaScript studies.
+- [`eeepjaa`](https://github.com/diego-nac/eeepjaa) — technical-school social web project.
+
+### Profile
+
+- [`diego-nac`](https://github.com/diego-nac/diego-nac) — source for this GitHub profile.
+
+### Forks & Learning References
+
+- [`brazil-as-100-people`](https://github.com/diego-nac/brazil-as-100-people)
+- [`teste-momento2-edital-tecnico`](https://github.com/diego-nac/teste-momento2-edital-tecnico)
+- [`eeepjaa-1`](https://github.com/diego-nac/eeepjaa-1)
+- [`snk`](https://github.com/diego-nac/snk)
+
+</details>
+
+## Experience
+
+<details open>
+<summary><strong>Maplink · Data & Innovation Analyst Jr.</strong> · Apr 2024 – Present</summary>
+<br>
+
+- Develop data models and ELT pipelines that support analytics and product decisions.
+- Monitor data quality and optimize analytical workflows with Python, SQL, and BigQuery.
+- Build data products integrating geospatial and operational datasets.
+- Contribute to AI-driven systems using LLM agents, vector search, and retrieval-based architectures.
+- Collaborate across teams on analytical infrastructure and data-governance practices.
+
+</details>
+
+<details>
+<summary><strong>Maplink · IT Intern</strong> · Apr 2022 – Apr 2024</summary>
+<br>
+
+- Supported internal data solutions and process-automation workflows.
+- Worked on data extraction, transformation, visualization, and operational analytics.
+- Helped build internal analytical tools for business decision-making.
+
+</details>
+
+<details>
+<summary><strong>Dell Lead · Python Trainee & Developer Scholar</strong> · Sep 2021 – Jan 2022</summary>
+<br>
+
+- Completed technical training in Python development and applied data science.
+- Developed NLP prototypes for customer-support automation.
+- Worked with NumPy, Pandas, Matplotlib, Flask, PyMongo, and TextBlob.
+
+</details>
+
+<details>
+<summary><strong>Fix Tecnologia · IT Intern</strong> · Aug 2021 – Oct 2021</summary>
+<br>
+
+- Developed an institutional website with JavaScript and PHP.
+- Implemented dynamic content management, an administration dashboard, and email automation.
+
+</details>
+
+## Education & research
+
+- **MSc in Computer Science** · Federal University of Ceará (UFC) · 2026–2028  
+  Research focus: GraphRAG and graph-based information retrieval for LLMs.
+- **BSc in Computer Engineering** · Federal University of Ceará (UFC) · 2022–2026  
+  Capstone: comparative analysis of predictive models for streamflow forecasting.
+- **Technical Degree in Informatics** · EEEP Joaquim Antônio Albano · 2018–2021
+
+### Selected credentials
+
+- NVIDIA — Fundamentals of Deep Learning *(issued 2023)*
+- Google — Google Maps Tech Credential Exam *(issued 2022)*
+- Google — Google Maps Sales Fundamentals Credential *(issued 2022)*
+
+<details>
+<summary><strong>Additional learning & languages</strong></summary>
+<br>
+
+- Additional training in Python, JavaScript, PHP, Android development, UI/UX, and application prototyping.
+- Portuguese — native · English — working proficiency · French — elementary proficiency.
+
+</details>
+
+## Let's connect
+
+I am open to exchanging ideas and collaborating on **data engineering, analytics, information retrieval, and applied AI**.
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-diegonac-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/diegonac)
+[![Email](https://img.shields.io/badge/Email-diego.nac%40hotmail.com-6D4AFF?style=for-the-badge&logo=microsoftoutlook)](mailto:diego.nac@hotmail.com)
+
+<sub>Building the path from raw data to reliable decisions.</sub>
+
+</div>
