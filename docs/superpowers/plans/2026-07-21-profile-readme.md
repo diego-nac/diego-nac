@@ -6,7 +6,7 @@
 
 **Architecture:** `README.md` is the presentation layer and remains useful without dynamic images. `.github/workflows/snake.yml` is the only automation component; it renders light/dark contribution SVGs and publishes them to the existing `output` branch. Validation combines repository-link checks, external asset checks, content-policy searches, Markdown inspection, YAML parsing, and public post-push verification.
 
-**Tech Stack:** GitHub-Flavored Markdown, supported inline HTML, Shields.io, Skill Icons/Devicon, Readme Typing SVG, GitHub Readme Stats, Streak Stats, Activity Graph, Profile Trophy, GitHub Actions, Platane/snk, GitHub Pages-compatible HTTPS assets.
+**Tech Stack:** GitHub-Flavored Markdown, supported inline HTML, Shields.io, Skill Icons/Devicon, Readme Typing SVG, GitHub Stats Extended, GitHub Actions, Platane/snk, GitHub Pages-compatible HTTPS assets.
 
 ## Global Constraints
 
@@ -140,7 +140,7 @@ Expected: one commit modifying only `README.md`.
 
 **Interfaces:**
 - Consumes: README section anchors and the GitHub username `diego-nac` from Task 1.
-- Produces: external dynamic cards and two assets at `output/github-contribution-grid-snake.svg` and `output/github-contribution-grid-snake-dark.svg`.
+- Produces: one consolidated stats asset at `output/stats.svg` and two snake assets at `output/github-contribution-grid-snake.svg` and `output/github-contribution-grid-snake-dark.svg`.
 
 - [ ] **Step 1: Add dynamic hero and analytics cards**
 
@@ -149,13 +149,10 @@ Add HTTPS images using `diego-nac` for:
 ```text
 Readme Typing SVG: Data Analyst; Data Engineer; Analytics & AI Systems; GraphRAG Researcher
 Profile views: komarev.com
-GitHub Readme Stats: overall stats and compact top languages
-GitHub Streak Stats
-GitHub Profile Trophy
-GitHub Readme Activity Graph
+GitHub Stats Extended: one consolidated Public GitHub Activity card
 ```
 
-Use matching dark/cyan themes. Each image must have distinct alt text. Do not place essential biography only inside images.
+Use matching dark/cyan themes. Do not add Top Languages, Streak Stats, trophies, an activity graph, a letter grade, or a percentile. Each image must have distinct alt text. Do not place essential biography only inside images.
 
 - [ ] **Step 2: Define the snake workflow**
 
@@ -179,6 +176,13 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      - name: Generate GitHub statistics card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=diego-nac&show_icons=true&include_all_commits=true&show=reviews,prs_merged&hide_rank=true&number_format=long&custom_title=Public%20GitHub%20Activity&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=6D4AFF&text_color=C9D1D9
+          path: dist/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Generate contribution SVGs
         uses: Platane/snk/svg-only@v3
         with:
@@ -190,7 +194,7 @@ jobs:
         uses: crazy-max/ghaction-github-pages@v4
         with:
           build_dir: dist
-          branch: output
+          target_branch: output
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
@@ -230,6 +234,8 @@ readme = Path('README.md').read_text()
 assert 'github_user_name: diego-nac' in Path('.github/workflows/snake.yml').read_text()
 assert readme.count('diego-nac') >= 10
 assert 'diego-melo' not in readme.lower()
+assert 'top-langs.svg' not in readme
+assert 'streak-stats' not in readme
 print('dynamic feature checks passed')
 PY
 ```
@@ -260,7 +266,7 @@ assert not failures, failures
 PY
 ```
 
-Expected: `checked <N> URLs` with no assertion. The two raw snake URLs may return 404 before the first workflow run; record them as the only permitted pre-publication exception and recheck after dispatch.
+Expected: `checked <N> URLs` with no assertion. The stats and two raw snake URLs may return 404 before the first workflow run; record them as the only permitted pre-publication exception and recheck after dispatch.
 
 - [ ] **Step 6: Review and commit dynamic functionality**
 
@@ -275,7 +281,102 @@ Expected: a commit containing the dynamic README additions and one canonical sna
 
 ---
 
-### Task 3: Publication and Public Verification
+### Task 3: Personal Octocat and Focused Dynamic Presentation
+
+**Files:**
+- Create: `assets/octocat-diego.png`
+- Modify: `README.md`
+- Modify: `.github/workflows/snake.yml`
+
+**Interfaces:**
+- Consumes: `/home/diego-maplink/Downloads/octocat-1784646456476.png`, the hero from Task 1, and the workflow from Task 2.
+- Produces: one repository-owned hero image, one consolidated Stats card, a `<kbd>` data pipeline, and explanatory Stats copy.
+
+- [ ] **Step 1: Run a failing presentation-policy test**
+
+Run:
+
+```bash
+python3 - <<'PY'
+from pathlib import Path
+readme = Path('README.md').read_text()
+workflow = Path('.github/workflows/snake.yml').read_text()
+assert Path('assets/octocat-diego.png').is_file(), 'personal Octocat asset missing'
+assert 'width="260"' in readme and "Diego Melo's personal Octocat working on a laptop" in readme
+assert '<kbd>Sources</kbd>' in readme and '<kbd>AI Systems</kbd>' in readme
+assert 'Public GitHub activity — commits, contributions, pull requests, issues and repositories.' in readme
+assert 'top-langs.svg' not in readme and 'top-langs' not in workflow
+assert 'include_all_commits=true' in workflow
+assert 'show=reviews,prs_merged' in workflow
+assert 'hide_rank=true' in workflow
+assert 'number_format=long' in workflow
+PY
+```
+
+Expected: FAIL first with `personal Octocat asset missing`.
+
+- [ ] **Step 2: Add the repository-owned Octocat asset**
+
+Copy the original without image transformation:
+
+```bash
+mkdir -p assets
+cp /home/diego-maplink/Downloads/octocat-1784646456476.png assets/octocat-diego.png
+cmp /home/diego-maplink/Downloads/octocat-1784646456476.png assets/octocat-diego.png
+```
+
+Expected: `cmp` exits 0 with no output. Confirm PNG dimensions and transparency using `file assets/octocat-diego.png`.
+
+- [ ] **Step 3: Add the Octocat and interactive pipeline to the hero**
+
+Immediately after the animated headline, add:
+
+```html
+<img src="assets/octocat-diego.png" width="260" alt="Diego Melo's personal Octocat working on a laptop" />
+```
+
+Replace the plain pipeline block with a centered flow that contains these exact stages:
+
+```html
+<kbd>Sources</kbd> → <kbd>Ingestion</kbd> → <kbd>Transformation</kbd> → <kbd>Warehousing</kbd> → <kbd>Analytics</kbd> → <kbd>AI Systems</kbd>
+```
+
+Keep the existing technology examples below the flow so the visual treatment does not remove technical meaning.
+
+- [ ] **Step 4: Consolidate Stats and add an explanatory caption**
+
+Remove the `top-langs.svg` image from `README.md` and the top-languages generation step from `.github/workflows/snake.yml`. Center `output/stats.svg` at a readable width and add this exact caption beneath it:
+
+```html
+<sub>Public GitHub activity — commits, contributions, pull requests, issues and repositories. These numbers represent public activity, not technical proficiency.</sub>
+```
+
+Configure the Stats action options exactly as:
+
+```yaml
+options: username=diego-nac&show_icons=true&include_all_commits=true&show=reviews,prs_merged&hide_rank=true&number_format=long&custom_title=Public%20GitHub%20Activity&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=6D4AFF&text_color=C9D1D9
+```
+
+- [ ] **Step 5: Run the presentation-policy test again**
+
+Repeat the Python test from Step 1.
+
+Expected: PASS with exit code 0. Then run `git diff --check` and verify the README contains exactly one reference to `output/stats.svg`.
+
+- [ ] **Step 6: Commit the personalization**
+
+Run:
+
+```bash
+git add assets/octocat-diego.png README.md .github/workflows/snake.yml
+git commit -m "feat: personalize data portfolio hero"
+```
+
+Expected: one commit containing the binary asset, focused README presentation changes, and the consolidated Stats configuration.
+
+---
+
+### Task 4: Publication and Public Verification
 
 **Files:**
 - Verify: `README.md`
@@ -283,7 +384,7 @@ Expected: a commit containing the dynamic README additions and one canonical sna
 - Verify: public profile `https://github.com/diego-nac`
 
 **Interfaces:**
-- Consumes: locally verified commits from Tasks 1 and 2.
+- Consumes: locally verified commits from Tasks 1 through 3.
 - Produces: updated `main`, a successful snake workflow run, populated `output` assets, and a publicly verified profile.
 
 - [ ] **Step 1: Run the full local release gate**
@@ -294,7 +395,7 @@ Run:
 git diff --check
 git status --short
 git log --oneline -5
-rg -n 'diego-melo|Diego-Melo|diegomelo624|\+55 85|98832-4122|TBD|TODO' README.md .github/workflows
+rg -n 'diego-melo|Diego-Melo|diegomelo624|\+55 85|98832-4122|T[B]D|T[O]DO' README.md .github/workflows
 ```
 
 Expected: clean diff check, only the intentionally committed plan may be ahead of `origin/main`, expected implementation commits are present, and the search returns no matches.
@@ -310,7 +411,7 @@ Expected: authenticated to `github.com` as `diego-nac` with repository and workf
 Run:
 
 ```bash
-git push origin main
+git push origin HEAD:main
 ```
 
 Expected: `main -> main` and no non-fast-forward or permission error.
@@ -334,11 +435,13 @@ Run:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/diego-nac/diego-nac/main/README.md | rg 'Data Analyst|Data Engineer|semantic_search_v2|GraphRAG'
+curl -fsSI https://raw.githubusercontent.com/diego-nac/diego-nac/main/assets/octocat-diego.png
+curl -fsSI https://raw.githubusercontent.com/diego-nac/diego-nac/output/stats.svg
 curl -fsSI https://raw.githubusercontent.com/diego-nac/diego-nac/output/github-contribution-grid-snake.svg
 curl -fsSI https://raw.githubusercontent.com/diego-nac/diego-nac/output/github-contribution-grid-snake-dark.svg
 ```
 
-Expected: all four README terms appear and both SVG requests return HTTP 200. Open `https://github.com/diego-nac` and inspect hero, cards, details blocks, and light/dark snake rendering.
+Expected: all four README terms appear, the Octocat PNG and all three SVG requests return HTTP 200, and `stats.svg` contains no renderer error text. Open `https://github.com/diego-nac` and inspect the Octocat hero, single Stats card and caption, `<kbd>` pipeline, details blocks, and light/dark snake rendering.
 
 - [ ] **Step 6: Report exact publication evidence**
 
