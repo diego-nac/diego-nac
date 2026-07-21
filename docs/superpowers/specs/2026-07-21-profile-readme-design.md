@@ -16,6 +16,10 @@ Use a “Data Platform Command Center” aesthetic: dark, technical, and polishe
 
 The README will be responsive within GitHub's renderer and use GitHub-Flavored Markdown plus supported HTML. Dynamic images must include descriptive alternative text. Content must remain understandable if a third-party widget fails.
 
+### Personal Octocat
+
+Use Diego's supplied transparent Octocat artwork as the central visual identity in the hero. Copy the source image from `/home/diego-maplink/Downloads/octocat-1784646456476.png` into the repository as `assets/octocat-diego.png` so the profile does not depend on an external image host. Render it centered at 260 pixels wide immediately after the animated headline and before the contact badges, with the alternative text `Diego Melo's personal Octocat working on a laptop`. Preserve the original artwork without cropping, recoloring, or other image edits.
+
 ## Content Architecture
 
 1. Animated hero identifying Diego as a Data Analyst and Data Engineer, with Analytics and AI Systems as supporting specialties.
