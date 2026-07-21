@@ -4,6 +4,8 @@
 
 [![Animated professional headline](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=00D9FF&center=true&vCenter=true&width=760&lines=Data+Analyst+%7C+Data+Engineer;Data+Modeling+%7C+ELT+%7C+Data+Quality;Analytics+%26+AI+Systems;GraphRAG+%26+Information+Retrieval)](https://git.io/typing-svg)
 
+<img src="assets/octocat-diego.png" width="260" alt="Diego Melo's personal Octocat working on a laptop" />
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/diegonac)
 [![Email](https://img.shields.io/badge/Email-Let's%20talk-6D4AFF?style=for-the-badge&logo=microsoftoutlook&logoColor=white)](mailto:diego.nac@hotmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/diego-nac)
@@ -18,12 +20,13 @@ I build reliable **data models, ELT pipelines, analytical workflows, and data pr
 
 I am also an **MSc student in Computer Science at the Federal University of Ceará (UFC)**, researching **GraphRAG and graph-based information retrieval for Large Language Models**. My work sits at the intersection of data engineering, analytics, and production-oriented AI systems.
 
-```text
-Sources  ──▶  Ingestion  ──▶  Transformation  ──▶  Warehousing  ──▶  Analytics  ──▶  AI Systems
- APIs          Python           SQL · ELT           BigQuery         BI · KPIs       RAG · GraphRAG
- Events        Pub/Sub          Data Quality        PostgreSQL       Insights        LLM Agents
- Files         RabbitMQ         Data Models         Cloud Storage    Experiments     Vector Search
-```
+<div align="center">
+
+<kbd>Sources</kbd> → <kbd>Ingestion</kbd> → <kbd>Transformation</kbd> → <kbd>Warehousing</kbd> → <kbd>Analytics</kbd> → <kbd>AI Systems</kbd>
+
+<sub>APIs · events · files → Python · Pub/Sub · RabbitMQ → SQL · ELT · data quality → BigQuery · PostgreSQL · Cloud Storage → BI · insights · experiments → RAG · GraphRAG · LLM agents</sub>
+
+</div>
 
 ## What I work with
 
@@ -197,8 +200,12 @@ Interactive analytical visualization exercises and published explorations built 
 
 <div align="center">
 
-<img width="49%" src="https://raw.githubusercontent.com/diego-nac/diego-nac/output/stats.svg" alt="Diego Melo's GitHub statistics" />
-<img width="41%" src="https://raw.githubusercontent.com/diego-nac/diego-nac/output/top-langs.svg" alt="Most used languages across Diego Melo's public repositories" />
+<img width="62%" src="https://raw.githubusercontent.com/diego-nac/diego-nac/output/stats.svg" alt="Diego Melo's public GitHub activity statistics" />
+
+<br>
+<sub>Public GitHub activity — commits, contributions, pull requests, issues and repositories. These numbers represent public activity, not technical proficiency.</sub>
+
+<br><br>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/diego-nac/diego-nac/output/github-contribution-grid-snake-dark.svg">

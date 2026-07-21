@@ -19,16 +19,8 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=diego-nac&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=6D4AFF&text_color=C9D1D9&ring_color=00D9FF
+          options: username=diego-nac&show_icons=true&include_all_commits=true&show=reviews,prs_merged&hide_rank=true&number_format=long&custom_title=Public%20GitHub%20Activity&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=6D4AFF&text_color=C9D1D9
           path: dist/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Generate top languages card
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: top-langs
-          options: username=diego-nac&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=C9D1D9
-          path: dist/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate contribution SVGs
