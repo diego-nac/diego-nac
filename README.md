@@ -200,10 +200,6 @@ Interactive analytical visualization exercises and published explorations built 
 <img width="49%" src="https://raw.githubusercontent.com/diego-nac/diego-nac/output/stats.svg" alt="Diego Melo's GitHub statistics" />
 <img width="41%" src="https://raw.githubusercontent.com/diego-nac/diego-nac/output/top-langs.svg" alt="Most used languages across Diego Melo's public repositories" />
 
-<img width="70%" src="https://streak-stats.demolab.com?user=diego-nac&theme=transparent&hide_border=true&ring=00D9FF&fire=6D4AFF&currStreakLabel=00D9FF&sideLabels=C9D1D9&dates=8B949E" alt="Diego Melo's GitHub contribution streak" />
-
-<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=diego-nac&bg_color=0D1117&color=C9D1D9&line=00D9FF&point=6D4AFF&area=true&hide_border=true" alt="Diego Melo's GitHub contribution activity graph" />
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/diego-nac/diego-nac/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/diego-nac/diego-nac/output/github-contribution-grid-snake.svg">
